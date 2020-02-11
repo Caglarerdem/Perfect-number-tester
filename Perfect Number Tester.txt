@@ -1,0 +1,15 @@
+while True:
+  k=0
+  g=[]
+  m=int(input("Input the number that you want to test it:"))
+  for a in range(1,m):
+    if m%a==0:
+      g.append(a)
+  for t in g:
+    k+=t
+  if m==0:
+    print("\n-->The number that you Input is not Perfect number.\n\n")
+  elif k==m:
+    print("\n-->The number that you Input is Perfect number.\n\n")
+  else:
+    print("\n-->The number that you Input is not Perfect number.\n\n")
